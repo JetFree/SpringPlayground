@@ -24,11 +24,11 @@
 <dependencies>
 
     <!-- Spring MVC support -->
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-webmvc</artifactId>
-        <version>${springframework.version}</version>
-    </dependency>
+<!--    <dependency>-->
+<!--        <groupId>org.springframework</groupId>-->
+<!--        <artifactId>spring-webmvc</artifactId>-->
+<!--        <version>${springframework.version}</version>-->
+<!--    </dependency>-->
 
     <!-- Servlet, JSP and JSTL support -->
     <dependency>
@@ -62,6 +62,17 @@
         <version>3.8.1</version>
         <scope>test</scope>
     </dependency>
+    <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-web</artifactId>
+        <version>5.3.3.RELEASE</version>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-config</artifactId>
+        <version>5.3.3.RELEASE</version>
+    </dependency>
+
 
 </dependencies>
 
