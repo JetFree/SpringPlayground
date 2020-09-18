@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class DemoController {
 
 	@GetMapping("/")
+	public String showLanding() {
+		return "landing";
+	}
+
+	@GetMapping("/employees")
 	public String showHome() {
 		return "home";
 	}
